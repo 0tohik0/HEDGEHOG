@@ -22,9 +22,18 @@ a
         padding-top: 30px
         font-size: 16px
         margin-left: 500px
+        padding-left: 20px
+        &::before
+            content: ''
+            position: absolute
+            background: url(../img/Vector.svg) no-repeat center 
+            width: 6.25px
+            height: 8.33px
+            margin-top: 5px
         &__item
-            margin-right: 80px
-            color: $turq
+            padding-left: 15px
+            margin-right: 65px
+            color: $turq           
     &-call
         padding-top: 26px
         margin-left: 70px
@@ -41,7 +50,7 @@ a
             border-radius: 50%
             box-shadow: -4px -4px 20px #FFFFFF, 4px 4px 20px #CFD7D3
             top: 36px
-            right: 400px
+            right: 395px
 .block
     display: flex
     justify-content: space-between
