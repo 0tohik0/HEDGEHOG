@@ -1,4 +1,45 @@
 .header
     padding-top: 35px
+    padding-bottom: 35px
     &-cart
         padding-top: 20px
+.content
+    &-container
+        max-width: 1800px
+        margin: auto
+    &-menu
+        font-family: 'Cormorant Infant', serif
+        font-weight: 700
+        text-transform: uppercase
+        padding-top: 30px
+        font-size: 16px
+        margin-left: 500px
+        padding-left: 20px
+        &::before
+            content: ''
+            position: absolute
+            background: url(../img/Vector.svg) no-repeat center 
+            width: 6.25px
+            height: 8.33px
+            margin-top: 5px
+        &__item
+            padding-left: 15px
+            margin-right: 65px
+            color: $turq           
+    &-call
+        padding-top: 26px
+        margin-left: 70px
+        &__item
+            font-family: 'Raleway'
+            font-weight: 500
+            font-size: 22px
+            font-feature-settings: 'pnum' on, 'lnum' on
+        &__img
+            position: absolute
+            width: 69px
+            height: 69px
+            background: url(../img/carbon_phone.svg) no-repeat center, linear-gradient(1.36deg, #B0D3CE 12.29%, #FFEDCE 83.89%)
+            border-radius: 50%
+            box-shadow: -4px -4px 20px #FFFFFF, 4px 4px 20px #CFD7D3
+            top: 36px
+            right: 425px

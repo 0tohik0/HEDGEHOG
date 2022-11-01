@@ -19,6 +19,21 @@ a {
   color: #195557;
 }
 
+.block {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.header-cart {
+  padding-top: 20px;
+}
+
 .content-container {
   max-width: 1800px;
   margin: auto;
@@ -69,20 +84,19 @@ a {
   border-radius: 50%;
   box-shadow: -4px -4px 20px #FFFFFF, 4px 4px 20px #CFD7D3;
   top: 36px;
-  right: 395px;
+  right: 425px;
 }
 
-.block {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
+.promo-container {
+  max-width: 875px;
+  margin: auto;
 }
 
-.header {
-  padding-top: 35px;
-}
-
-.header-cart {
-  padding-top: 20px;
+.promo-title {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  color: #195557;
+  text-transform: uppercase;
+  font-size: 120px;
 }
 /*# sourceMappingURL=style.css.map */
